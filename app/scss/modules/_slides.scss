@@ -1,0 +1,61 @@
+.slides {
+    position: relative;
+
+    &__text {
+        position: absolute;
+        bottom: 130px;
+        left: 10px;
+        color: #fff;
+        text-transform: uppercase;
+        z-index: 99;
+        font-size: 24px;
+        transform: rotate(90deg);
+        letter-spacing: 6.72px;
+    }
+
+    &__about {
+        position: absolute;
+        bottom: 380px;
+        left: 580px;
+        color: #fff;
+        font-size: 22px;
+        font-weight: 300;
+        width: 770px;
+        letter-spacing: 4.4px;
+        line-height: 40px;
+    }
+
+    &__star {
+        position: absolute;
+        z-index: 99;
+    }
+
+    &__img {
+        @include size(100%);
+        position: relative;
+
+    }
+
+    &__author {
+        position: absolute;
+        bottom: -40px;
+        left: 300px;
+        color: #fff;
+        font-size: 24px;
+        font-weight: 400;
+        width: 770px;
+        letter-spacing: 4.4px;
+        line-height: 40px;
+
+        &::before {
+        display: block;                   
+        width: 40px;               
+        content: '';                   
+        position: absolute;              
+        border-bottom: 2px solid #fff;  
+        top:50%;                        
+        right: 103%;
+    }
+    }
+}
+

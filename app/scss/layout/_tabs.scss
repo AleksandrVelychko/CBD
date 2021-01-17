@@ -1,0 +1,49 @@
+.sidebar {
+    margin-top: 100px;
+    
+    .nav-link {
+        font-size: 30px;
+        color: #000;
+        position: relative;
+
+        &::after {
+        @include pos($b: -1px, $l: 50%);
+        @include size(0, 2px);
+        content: "";
+        background-color: transparent;
+        transition: all 0.3s;
+      }
+
+      &.active::after {
+        background-color: #000;
+        left: 0;
+        width: 100%;
+      }
+    }
+
+    .tab-pane {
+        padding-top: 75px;
+    }
+
+    &__posts-title {
+        margin-bottom: 40px;
+        font-size: 24px;
+        font-weight: 400;
+        letter-spacing: 4.8px;
+        line-height: 40px;
+    }
+
+    &__posts-date {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 30px;
+        margin-right: 100px;
+        font-size: 18px;
+        font-weight: 300;
+        line-height: 40px;
+    }
+}
+
+.d-block {
+    margin-bottom: 30px;
+}

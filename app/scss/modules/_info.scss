@@ -1,0 +1,42 @@
+.info {
+
+    &__title {
+        text-align: center;
+        font-size: 30px;
+        text-transform: uppercase;
+        letter-spacing: 6px;
+        margin-bottom: 45px;
+    }
+}
+
+.accordion {
+    width: 580px;
+    margin: 0 auto 140px;
+}
+
+.card-header {
+    font-weight: 300;
+    font-size: 18px;
+    color: #6e774a;
+    background: #f7f8f3;
+    border-bottom: 1px solid #eaedde;
+    border-top: 2px solid #eaedde;
+}
+
+.card-title {
+    letter-spacing: 5.04px;
+}
+
+.card-text {
+    color: #000;
+    line-height: 40px;
+}
+
+.card-plus {
+    color: #6e774a;
+    font-size: 18px;
+}
+
+.card {
+    border: none;
+}

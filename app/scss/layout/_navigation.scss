@@ -1,0 +1,45 @@
+.navigation {
+    padding-top: 20px; 
+    align-items: center;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #fff;
+
+
+    &__wrap {
+     display: flex;
+     justify-content: space-between;
+    }
+
+    &__list {
+        display: flex;
+        margin-left: 30px;
+    }
+
+    &__item {
+        margin-right: 45px;
+        color: #fff;
+        text-transform: uppercase;
+        
+    }
+
+    &__link {
+        color: #fff;
+
+        &:hover {
+            text-decoration: line-through  #9db892;
+            color: #fff;
+        }
+    }
+
+    &__order {
+        display: flex;
+        margin-right: 45px;
+        text-transform: uppercase;
+    }
+
+    &__btn {
+        margin-left: 45px;
+        border-left: 1px solid #fff;
+        color: #fff;
+    }
+}
